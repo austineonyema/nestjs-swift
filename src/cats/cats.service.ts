@@ -12,4 +12,8 @@ export class CatsService {
   findAll(): Cat[] {
     return this.cats;
   }
+
+  info(): string {
+    return 'a cat has many different breeds';
+  }
 }

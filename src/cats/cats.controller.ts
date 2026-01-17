@@ -101,8 +101,14 @@ export class CatsController {
     this.catsService.create(createCatDto);
   }
 
+  //   @Get('/all')
+  // async findAll(): Promise<Cat[]> {
+  //   return this.catsService.findAll();
+  // }
+
   @Get()
   async findAll(): Promise<Cat[]> {
+    // console.log('hello world');
     return this.catsService.findAll();
   }
 }
