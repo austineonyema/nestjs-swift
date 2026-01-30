@@ -24,3 +24,5 @@ lerna-debug.log*
 .tmp
 
 * text=auto eol=lf
+# implementation plan
+walkthrough.md
